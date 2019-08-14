@@ -5,7 +5,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(plugin = { "pretty", "html:target/cucumber-report", "json:target/cucumber.json",
 		"rerun:target/rerun.txt" }, tags = "", features = {
-				"src/test/resources/com/app/features/" }, glue = "com/app/carrental/stepdefinitions", dryRun = true)
+				"src/test/resources/com/app/features/" }, glue = "com/app/carrental/stepdefinitions", dryRun = false)
 
 public class CukesRunner extends AbstractTestNGCucumberTests {
 
