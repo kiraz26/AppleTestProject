@@ -1,84 +1,66 @@
 package com.app.carrental.beans;
 
+import java.util.Map;
+
+import com.app.carrental.beans.RentalCarBeans.Car.Metrics;
+
 public class Cars {
-		
 	private String make;
 	private String model;
 	private String vin;
-	private String metadataColor;
-	private String metadataNotes;
-	private float perdayrentPrice;
-	private float perdayrentDiscount;
-	private float metricsMaintanenceCost;
-	private float metricsDepreciation;
-	private float metricsRentalCountLastweek;
-	private float metricsRentalCountYeartodate;
+	private Map<String, String> metadata;
+	private Map<String, Float> perdayrent;
+	private Metrics metrics;
 	
+
+	public Metrics getMetrics() {
+		return metrics;
+	}
+
+	public void setMetrics(Metrics metrics) {
+		this.metrics = metrics;
+	}
+
+	
+
 	public String getMake() {
 		return make;
 	}
+
 	public void setMake(String make) {
 		this.make = make;
 	}
+
 	public String getModel() {
 		return model;
 	}
+
 	public void setModel(String model) {
 		this.model = model;
 	}
+
 	public String getVin() {
 		return vin;
 	}
+
 	public void setVin(String vin) {
 		this.vin = vin;
 	}
-	public String getMetadataColor() {
-		return metadataColor;
+
+	public Map<String, String> getMetadata() {
+		return metadata;
 	}
-	public void setMetadataColor(String metadataColor) {
-		this.metadataColor = metadataColor;
+
+	public void setMetadata(Map<String, String> metadata) {
+		this.metadata = metadata;
 	}
-	public String getMetadataNotes() {
-		return metadataNotes;
+
+	public Map<String, Float> getPerdayrent() {
+		return perdayrent;
 	}
-	public void setMetadataNotes(String metadataNotes) {
-		this.metadataNotes = metadataNotes;
+
+	public void setPerdayrent(Map<String, Float> perdayrent) {
+		this.perdayrent = perdayrent;
 	}
-	public float getPerdayrentPrice() {
-		return perdayrentPrice;
-	}
-	public void setPerdayrentPrice(float perdayrentPrice) {
-		this.perdayrentPrice = perdayrentPrice;
-	}
-	public float getPerdayrentDiscount() {
-		return perdayrentDiscount;
-	}
-	public void setPerdayrentDiscount(float perdayrentDiscount) {
-		this.perdayrentDiscount = perdayrentDiscount;
-	}
-	public float getMetricsMaintanenceCost() {
-		return metricsMaintanenceCost;
-	}
-	public void setMetricsMaintanenceCost(float metricsMaintanenceCost) {
-		this.metricsMaintanenceCost = metricsMaintanenceCost;
-	}
-	public float getMetricsDepreciation() {
-		return metricsDepreciation;
-	}
-	public void setMetricsDepreciation(float metricsDepreciation) {
-		this.metricsDepreciation = metricsDepreciation;
-	}
-	public float getMetricsRentalCountLastweek() {
-		return metricsRentalCountLastweek;
-	}
-	public void setMetricsRentalCountLastweek(float metricsRentalCountLastweek) {
-		this.metricsRentalCountLastweek = metricsRentalCountLastweek;
-	}
-	public float getMetricsRentalCountYeartodate() {
-		return metricsRentalCountYeartodate;
-	}
-	public void setMetricsRentalCountYeartodate(float metricsRentalCountYeartodate) {
-		this.metricsRentalCountYeartodate = metricsRentalCountYeartodate;
-	}
-	
+
 }
