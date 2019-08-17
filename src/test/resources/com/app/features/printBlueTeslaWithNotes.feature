@@ -1,3 +1,5 @@
+#Question 1: Print all the blue Teslas received in the web service response. Also print the notes
+
 Feature: As a user I want to see same model and color selections in the database
 
   @test
