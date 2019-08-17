@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3155" started-at="2019-08-14T22:28:53Z" finished-at="2019-08-14T22:28:56Z">
+  <suite name="Default suite" duration-ms="2749" started-at="2019-08-15T16:37:23Z" finished-at="2019-08-15T16:37:25Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.carrental.runners.CukesRunner@1794d431]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="3155" started-at="2019-08-14T22:28:53Z" finished-at="2019-08-14T22:28:56Z">
+    <test name="Default test" duration-ms="2749" started-at="2019-08-15T16:37:23Z" finished-at="2019-08-15T16:37:25Z">
       <class name="com.app.carrental.runners.CukesRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.carrental.runners.CukesRunner@1794d431]" name="setUpClass" is-config="true" duration-ms="136" started-at="2019-08-14T22:28:53Z" finished-at="2019-08-14T22:28:53Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.carrental.runners.CukesRunner@1794d431]" name="setUpClass" is-config="true" duration-ms="142" started-at="2019-08-15T16:37:23Z" finished-at="2019-08-15T16:37:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.carrental.runners.CukesRunner@1794d431]" name="runScenario" duration-ms="2913" started-at="2019-08-14T22:28:53Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-08-14T22:28:56Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.carrental.runners.CukesRunner@1794d431]" name="runScenario" duration-ms="2513" started-at="2019-08-15T16:37:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-08-15T16:37:25Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.carrental.runners.CukesRunner@1794d431]" name="tearDownClass" is-config="true" duration-ms="57" started-at="2019-08-14T22:28:56Z" finished-at="2019-08-14T22:28:56Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.carrental.runners.CukesRunner@1794d431]" name="tearDownClass" is-config="true" duration-ms="43" started-at="2019-08-15T16:37:25Z" finished-at="2019-08-15T16:37:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

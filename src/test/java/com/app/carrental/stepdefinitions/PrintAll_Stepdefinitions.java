@@ -34,7 +34,9 @@ public class PrintAll_Stepdefinitions {
 	public void user_get_request_from_url() {
 
 		String url = "http://localhost:3000";
+		//String fileUrl="C:\\Users\\Halil\\eclipse-workspace\\AppleTestProject\\db.json";
 		Response response = given().accept(ContentType.JSON).when().get(url + "/cars");
+		//Response response = given().accept(ContentType.JSON).when().get(fileUrl);
 
 		assertEquals(response.statusCode(), 200);
 
