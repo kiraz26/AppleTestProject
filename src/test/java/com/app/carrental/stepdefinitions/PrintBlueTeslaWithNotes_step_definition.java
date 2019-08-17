@@ -33,7 +33,7 @@ public class PrintBlueTeslaWithNotes_step_definition {
 
 	@When("User can call car rental api to see {string} {string}")
 	public void user_can_call_car_rental_api_to_see(String string, String string2) {
-		JsonPath json = response.jsonPath(); // Serilization of JSON object
+		JsonPath json = response.jsonPath(); // Serialization of JSON object
 		makeList = json.getList("make");
 		
 		metadataMap = response.jsonPath().getList("metadata", Map.class);
